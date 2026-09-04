@@ -1,0 +1,7 @@
+torch>=1.6.0
+torchcontrib
+numpy>=1.24.0
+soundfile
+tensorboard
+sounddevice
+scipy
