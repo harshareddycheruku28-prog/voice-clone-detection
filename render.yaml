@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: voice-clone-detection-backend
+    env: docker
+    dockerContext: .
+    dockerfilePath: backend/Dockerfile
+    plan: free
+    healthCheckPath: /health
+    autoDeploy: true
